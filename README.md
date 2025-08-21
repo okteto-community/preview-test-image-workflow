@@ -1,0 +1,2 @@
+# preview-test-image-workflow
+Repository used to exemplify the creation of a test image for Okteto test in CI
