@@ -4,7 +4,7 @@ build:
     target: base
 
 deploy:
-  compose: docker-compose.yml
+  compose: docker-compose.yaml
 
 dev:
   app:
