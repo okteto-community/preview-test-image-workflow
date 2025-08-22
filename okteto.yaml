@@ -25,4 +25,3 @@ test:
     context: tests
     commands:
       - ls
-      - CYPRESS_BASE_URL=https://app-${OKTETO_NAMESPACE}.${OKTETO_DOMAIN} yarn cypress:run --config video=false,screenshotOnRunFailure=false
