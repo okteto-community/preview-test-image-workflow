@@ -18,7 +18,7 @@ dev:
 
 test:
   e2e:
-    image: cypress/included:13.6.1
+    image: docker.io/rancherochido/cypress-included:13.6.1
     caches:
       - /root/.cache
       - /root/.yarn
