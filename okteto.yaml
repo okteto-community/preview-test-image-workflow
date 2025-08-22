@@ -18,12 +18,10 @@ dev:
 
 test:
   e2e:
-    image: cypress/included:13.6.1
+    image: rancherochido/cypress-included:0.0.1
     caches:
       - /root/.cache
       - /root/.yarn
     context: tests
     commands:
       - ls
-      - yarn install --frozen-lockfile
-      - CYPRESS_BASE_URL=https://app-${OKTETO_NAMESPACE}.${OKTETO_DOMAIN} yarn cypress:run --config video=false,screenshotOnRunFailure=false

@@ -1,0 +1,4 @@
+FROM cypress/included:13.6.1
+
+COPY /tests/package.json /tests/yarn.lock ./
+RUN yarn install --frozen-lockfile
