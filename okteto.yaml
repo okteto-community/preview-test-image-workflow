@@ -24,4 +24,5 @@ test:
       - /root/.yarn
     context: tests
     commands:
+      - yarn install --frozen-lockfile
       - ls
